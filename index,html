@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>你的姓名</title>
+  <style>
+    body{max-width:780px;margin:48px auto;padding:0 18px;font:16px/1.6 system-ui,-apple-system,Segoe UI,Roboto}
+    h1{margin:0 0 8px} .meta{color:#555;margin:0 0 18px}
+    a{color:inherit}
+    。card{border:1px solid #eee;border-radius:12px;padding:16px 18px;margin:16px 0}
+  </style>
+</head>
+<body>
+  <h1>你的姓名 / Your Name</h1>
+  <p class="meta">单位｜方向（可选）｜Email: <a href="mailto:you@domain.com">you@domain.com</a></p>
+
+  <div class="card">
+    <strong>Research Interests</strong>
+    <p>IoT / Edge AI / (你的关键词…)</p>
+  </div>
+
+  <div class="card">
+    <strong>Links</strong>
+    <ul>
+      <li><a href="https://github.com/你的用户名">GitHub</a></li>
+      <li><a href="https://scholar.google.com/....">Google Scholar (optional)</a></li>
+      <li><a href="https://orcid.org/....">ORCID (optional)</a></li>
+    </ul>
+  </div>
+</body>
+</html>
